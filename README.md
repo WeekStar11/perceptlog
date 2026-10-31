@@ -12,6 +12,7 @@
 ![LangChain](https://img.shields.io/badge/LangChain-LCEL-1C3C3C)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B)
 ![License](https://img.shields.io/badge/License-MIT-green)
+[![tests](https://github.com/WeekStar11/perceptlog/actions/workflows/tests.yml/badge.svg)](https://github.com/WeekStar11/perceptlog/actions/workflows/tests.yml)
 
 ---
 
@@ -243,6 +244,8 @@ pytest tests/
 
 覆盖：代码块剥离、别名归一化、坏条目跳过、对比卡片容错、统计与 Markdown 导出、演示模式端到端。
 
+测试只用到标准库，所以 GitHub Actions 里不装任何依赖也能跑：每次 push 到 `main` 会跑 Python 3.10 与 3.12 两遍（见 `.github/workflows/tests.yml`）。
+
 ## 常见问题
 
 **Q：报 `MissingCredential` / 提示没有 API Key。**
@@ -303,4 +306,5 @@ perceptlog/
 ---
 
 <sub>本项目为《现代生活的信息感知》第七章“智能应用开发”作业，选题来自课程中的“生物感官与电子感官”对照。</sub>
+
 
