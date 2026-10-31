@@ -1,4 +1,4 @@
-﻿# 感官账本 PerceptLog
+# 感官账本 PerceptLog
 
 > 把一天的感知日志，读成一张信息结构图。
 
