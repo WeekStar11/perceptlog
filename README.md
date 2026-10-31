@@ -1,4 +1,4 @@
-# 感官账本 PerceptLog
+﻿# 感官账本 PerceptLog
 
 > 把一天的感知日志，读成一张信息结构图。
 
@@ -6,7 +6,7 @@
 
 在线模型（DeepSeek / OpenAI）与离线模型（Ollama）都支持，换一个 `base_url` 就能切换，不需要改代码。
 
-开源仓库：`https://github.com/<你的GitHub用户名>/perceptlog`
+开源仓库：`https://github.com/WeekStar11/perceptlog`
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-LCEL-1C3C3C)
@@ -61,7 +61,7 @@
 需要 Python 3.10 及以上。
 
 ```bash
-git clone https://github.com/<你的GitHub用户名>/perceptlog.git
+git clone https://github.com/WeekStar11/perceptlog.git
 cd perceptlog
 
 python -m venv .venv
@@ -303,3 +303,4 @@ perceptlog/
 ---
 
 <sub>本项目为《现代生活的信息感知》第七章“智能应用开发”作业，选题来自课程中的“生物感官与电子感官”对照。</sub>
+
