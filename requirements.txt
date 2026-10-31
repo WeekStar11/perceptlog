@@ -1,0 +1,10 @@
+# 核心依赖：LangChain 只用到 core + openai 兼容封装
+langchain-core>=0.3.30
+langchain-openai>=0.2.10
+
+# 界面
+streamlit>=1.36
+pandas>=2.0
+
+# 配置
+python-dotenv>=1.0
